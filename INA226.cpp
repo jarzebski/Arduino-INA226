@@ -231,7 +231,7 @@ void INA226::setBusVoltageLimit(float voltage)
 
 void INA226::setShuntVoltageLimit(float voltage)
 {
-    uint16_t value = voltage * 25000;
+    uint16_t value = voltage / 0.0000025;
     writeRegister16(INA226_REG_ALERTLIMIT, value);
 }
 
