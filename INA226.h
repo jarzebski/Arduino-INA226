@@ -133,6 +133,9 @@ class INA226
 	float readBusPower(void);
 	float readBusVoltage(void);
 
+	int16_t readShuntCurrent_raw(void);
+
+
 	float getMaxPossibleCurrent(void);
 	float getMaxCurrent(void);
 	float getMaxShuntVoltage(void);
