@@ -131,6 +131,11 @@ float INA226::readShuntVoltage(void)
     return (voltage * 0.0000025);
 }
 
+int16_t readShuntCurrent_raw(void)
+{
+    return readRegister16(INA226_REG_SHUNTVOLTAGE);
+}
+
 float INA226::readBusVoltage(void)
 {
     int16_t voltage;
