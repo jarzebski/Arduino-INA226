@@ -1,3 +1,16 @@
+INA226 Arduino Library 1.1.0 / 18.06.2023
+======================================================================
+
+ * Fixes for calibrate method and setShuntVoltageLimit method
+ * Add new method readRawShuntCurrent()
+ * Add new method disableAlerts()
+ * Change getMaskEnable() to public access
+ * Remove beginTransmission and endTransmission in readRegister
+ * Remove delay(1) in wire transmission
+ * Add PlatformIO and Arduino library informations
+ * Change to MIT license
+ * General cleanups
+
 INA226 Arduino Library 1.0.0 / 08.04.2014
 ======================================================================
 

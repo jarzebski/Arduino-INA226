@@ -1,0 +1,16 @@
+{
+  "name": "Arduino-INA226",
+  "keywords": "INA226, sensor, power monitoe, power, i2c, wire",
+  "description": "INA226 Bi-directional Current/Power Monitor Arduino Library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarzebski/Arduino-INA226"
+  },
+  "authors": {
+    "name": "Korneliusz Jarzębski",
+    "url": "https://www.jarzebski.pl"
+  },
+  "version": "1.1.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
